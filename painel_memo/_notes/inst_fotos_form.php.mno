@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsinstalacoes_fotos_if" value="name:if_titulo;datatype:int,name:if_texto;datatype:int,name:if_imagem;datatype:int,name:if_id;datatype:int" />
+	<infoitem key="MM_css_include" value="../css/style.css,../includes/skins/mxkollection3.css" />
+</info>

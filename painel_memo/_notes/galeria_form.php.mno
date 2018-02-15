@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsgaleria_g" value="name:g_descricao;datatype:int,name:g_data;datatype:int,name:g_id;datatype:int" />
+	<infoitem key="MM_css_include" value="../css/style.css,../includes/skins/mxkollection3.css" />
+</info>

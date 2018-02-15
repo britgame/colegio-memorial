@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rspaginas_p" value="name:p_texto;datatype:int,name:p_data;datatype:int,name:p_id;datatype:int" />
+	<infoitem key="UD_paginas" value="name:p_titulo;datatype:string" />
+	<infoitem key="MM_css_include" value="../css/style.css,../includes/skins/mxkollection3.css" />
+</info>

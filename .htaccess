@@ -1,0 +1,30 @@
+# Begin Memorial
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteBase /Memorial/
+
+    RewriteRule ^bem_vindo/?$ home.php [NC,L]
+    RewriteRule ^servicos/?$ servicos.php [NC,L]
+    RewriteRule ^espacos/?$ espacos.php [NC,L]
+    RewriteRule ^espacos-fotos/?$ espacos_ver.php [NC,L]
+
+    RewriteRule ^objetivos/?$ objetivos.php [NC,L]
+    RewriteRule ^rendimento-escolar/?$ rendimento.php [NC,L]
+    RewriteRule ^projetos/?$ projetos.php [NC,L]
+    RewriteRule ^atividades/?$ atividades.php [NC,L]
+    RewriteRule ^ensino/?$ ensino.php [NC,L]
+    RewriteRule ^matricula/?$ matricula.php [NC,L]
+    RewriteRule ^concurso-de-bolsa/?$ concurso.php [NC,L]
+    RewriteRule ^missao-e-filosofia/?$ missaofilosofia.php [NC,L]
+    RewriteRule ^contato/?$ contato.php [NC,L]
+    RewriteRule ^a-escola/?$ escola.php [NC,L]
+    RewriteRule ^cursos/?$ cursos.php [NC,L]
+    RewriteRule ^trabalhe-conosco/?$ trabalhe.php [NC,L]
+
+</IfModule>
+# END Memorial

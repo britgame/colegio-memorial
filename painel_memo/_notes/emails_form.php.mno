@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="../css/style.css,../includes/skins/mxkollection3.css" />
+	<infoitem key="UD_paginas" value="name:p_titulo;datatype:string" />
+	<infoitem key="UD_email" value="name:e_titulo;datatype:string" />
+	<infoitem key="UD_rsemails_e" value="name:e_texto;datatype:int,name:e_id;datatype:int" />
+</info>

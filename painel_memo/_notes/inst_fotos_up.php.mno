@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsinstalacoes_fotos_if" value="name:if_img_capa;datatype:int,name:if_id;datatype:int" />
+	<infoitem key="UD_verificar" value="name:if_img_capa;datatype:int" />
+</info>

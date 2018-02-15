@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="../css/style.css,../includes/skins/mxkollection3.css" />
+	<infoitem key="UD_rspatrocinadores_ptr1" value="name:ptr_img;datatype:string,name:ptr_link;datatype:string,name:ptr_id;datatype:int" />
+</info>

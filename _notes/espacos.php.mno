@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="slide/css/presentationCycle.css,css/style.css" />
+	<infoitem key="UD_espacos" value="name:i_id;datatype:int,name:i_titulo;datatype:string,name:i_imagem;datatype:blob" />
+	<infoitem key="UD_instalacoes" value="name:if_imagem;datatype:string,name:if_img_capa;datatype:int,name:i_titulo;datatype:string,name:i_id;datatype:int" />
+	<infoitem key="UD_paginas" value="name:p_texto;datatype:blob" />
+</info>

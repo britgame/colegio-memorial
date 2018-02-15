@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_up_destaque" value="name:g_id;datatype:int,name:g_destaque;datatype:int" />
+	<infoitem key="UD_rsgaleria_g" value="name:g_destaque;datatype:int,name:g_id;datatype:int" />
+</info>

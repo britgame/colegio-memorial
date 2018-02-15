@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_slide" value="name:if_imagem;datatype:string,name:if_img_capa;datatype:int,name:i_titulo;datatype:string,name:i_id;datatype:int" />
+	<infoitem key="UD_fotos" value="name:fullname;datatype:int,name:name;datatype:int,name:date;datatype:int,name:size;datatype:int,name:extension;datatype:int" />
+	<infoitem key="UD_galeria" value="name:g_id;datatype:int,name:g_ctg_id;datatype:int,name:g_descricao;datatype:string,name:g_imagem;datatype:string,name:g_data;datatype:date" />
+</info>

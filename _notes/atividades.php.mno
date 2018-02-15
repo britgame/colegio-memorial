@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_galeria" value="name:g_id;datatype:int,name:g_descricao;datatype:string,name:g_imagem;datatype:string,name:g_data;datatype:date" />
+	<infoitem key="UD_atividades" value="name:atv_id;datatype:int,name:atv_titulo;datatype:string,name:atv_texto;datatype:blob,name:atv_data;datatype:date" />
+	<infoitem key="MM_css_include" value="slide/css/presentationCycle.css,css/style.css" />
+	<infoitem key="UD_paginas" value="name:p_texto;datatype:blob" />
+</info>

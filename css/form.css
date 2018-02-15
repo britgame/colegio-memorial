@@ -1,0 +1,21 @@
+body, td {font-family:Tahoma; font-size:11px; }
+a:hover {text-decoration:none}
+.s1{color:#929292}
+.w{color:#FFFFFF;}
+
+.campoform {
+	border:1px solid #999; 
+	FONT-SIZE: 11px; 
+	WIDTH: 350px; 
+	FONT-FAMILY: Tahoma, Arial;
+	color: #666;
+}
+
+textarea.modelo1{
+	border:1px solid #999; 
+	WIDTH: 350px; 
+	HEIGHT: 100px;
+	font-family:tahoma,arial,verdana;
+	font-size:8pt;
+	color: #666;
+}

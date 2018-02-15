@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_fundamental_e" value="name:e_id;datatype:int,name:e_titulo;datatype:string,name:e_texto;datatype:blob" />
+</info>
