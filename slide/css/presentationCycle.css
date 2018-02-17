@@ -19,34 +19,6 @@
     overflow:visible;
 }
 
-.pc_bar_container_underflow {
-    width: 90000px;
-    overflow: visible;
-}
-
-.pc_bar_container_overflow {
-    overflow: hidden;
-    position: absolute;
-    top: 230px;
-    color: white;
-    margin: 0px;
-    padding: 0px;
-}
-
-.left, .center, .right {
-    background-position: left;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    font-size: 1px;
-    float: left;
-}
-
-.bar {
-    background-position: left;
-    overflow: hidden;
-    font-size: 1px;
-    float: left;
-}
 
 .pc_item .desc {
     width: 260px;
@@ -54,8 +26,4 @@
     line-height: 1.8em;
 	position: absolute;
 	margin-left: 220px;
-}
-
-.pc_item .desc h1 {
-    color: #DE8F26;    
 }

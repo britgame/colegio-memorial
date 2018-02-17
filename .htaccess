@@ -12,11 +12,11 @@ RewriteBase /Memorial/
     RewriteRule ^servicos/?$ servicos.php [NC,L]
     RewriteRule ^espacos/?$ espacos.php [NC,L]
     RewriteRule ^espacos-fotos/?$ espacos_ver.php [NC,L]
-
     RewriteRule ^objetivos/?$ objetivos.php [NC,L]
     RewriteRule ^rendimento-escolar/?$ rendimento.php [NC,L]
     RewriteRule ^projetos/?$ projetos.php [NC,L]
     RewriteRule ^atividades/?$ atividades.php [NC,L]
+    RewriteRule ^atividades-complementares/?$ atividades_complementares.php [NC,L]
     RewriteRule ^ensino/?$ ensino.php [NC,L]
     RewriteRule ^matricula/?$ matricula.php [NC,L]
     RewriteRule ^concurso-de-bolsa/?$ concurso.php [NC,L]

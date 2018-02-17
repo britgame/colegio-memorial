@@ -1,10 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Untitled Document</title>
 <script type="text/javascript">
-<!--
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -28,43 +22,41 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
-</head>
 
 <body onload="MM_preloadImages('../images/ir_top_ovr.png')">
+
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td height="57"><div class="menu_top">
-	      <nav>
-<div id="templatemo_fundo_menu">
+    <td height="57">
+<div class="menu_top">
+	      
+    <div id="templatemo_fundo_menu">
 
-<div class="logo_menu"><img src="../images/logo_menu.png" width="40" height="40" /></div>
-<div class="ir_topo1"><a href="#top" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topo','','images/ir_top_ovr.png',1)"><img src="../images/ir_top.png" name="topo" width="25" height="25" border="0" id="topo" /></a></div>
+    <div class="logo_menu"><img src="../images/logo_menu.png" width="40" height="40" /></div>
+    <div class="ir_topo1"><a href="#top" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topo','','images/ir_top_ovr.png',1)"><img src="../images/ir_top.png" name="topo" width="25" height="25" border="0" id="topo" /></a></div>
 
     <div id="menu">
+      <nav>
     <ul>
-		<li><a href="<?php echo domain; ?>">Home</a></li>
-		<li><a href="<?php echo domain; ?>/servicos">Serviços</a></li>
-		<li><a href="<?php echo domain; ?>/espacos">Espaços</a></li>
-		<li><a href="<?php echo domain; ?>/objetivos">Objetivos</a></li>
-		<li><a href="<?php echo domain; ?>/rendimento-escolar">Rendimento</a></li>
-        <li><a href="<?php echo domain; ?>/projetos">Projetos</a></li>
-        <li><a href="<?php echo domain; ?>/atividades">Atividades</a></li>
-        <li><a href="<?php echo domain; ?>/ensino">Ensino</a></li>
-        <li><a href="<?php echo domain; ?>/matricula">Matricula</a></li>
-        <li><a href="<?php echo domain; ?>/concurso-de-bolsa">Concurso de Bolsa</a></li>
+  		<li><a href="<?php echo domain; ?>">Home</a></li>
+  		<li><a href="<?php echo domain; ?>/servicos">Serviços</a></li>
+  		<li><a href="<?php echo domain; ?>/espacos">Espaços</a></li>
+  		<li><a href="<?php echo domain; ?>/objetivos">Objetivos</a></li>
+  		<li><a href="<?php echo domain; ?>/rendimento-escolar">Rendimento</a></li>
+      <li><a href="<?php echo domain; ?>/projetos">Projetos</a></li>
+      <li><a href="<?php echo domain; ?>/atividades">Atividades</a></li>
+      <li><a href="<?php echo domain; ?>/ensino">Ensino</a></li>
+      <li><a href="<?php echo domain; ?>/matricula">Matricula</a></li>
+      <li><a href="<?php echo domain; ?>/concurso-de-bolsa">Concurso de Bolsa</a></li>
 
-	</ul>
-                                
+	  </ul>
+       </nav>                         
     </div>
     </div>
-     <div class="clear"></div> 
-	 </nav>
-    <div style="background-color:#333; height:5px">&nbsp;</div> 
-    </div>
+<div class="clear"></div> 
+<div style="background-color:#333; height:5px">&nbsp;</div> 
+</div>
    
    </td>
   </tr>
 </table>
-    
-</body>
-</html>

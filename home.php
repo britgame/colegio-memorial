@@ -129,11 +129,6 @@ $(function(){
   require(basename("organisms/_topo.php"));
   mxi_includes_end();
 ?>
-<?php
-  mxi_includes_start("organisms/_menu_horizontal_topo.php");
-  require(basename("organisms/_menu_horizontal_topo.php"));
-  mxi_includes_end();
-?>
 <div id="templatemo_wrapper">
     
     <div id="templatemo_main">
@@ -156,7 +151,7 @@ $(function(){
   </tr>
 
   <tr>
-   <td><a href="<?php echo domain; ?>/atividades" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('menubanner_r1_c1','','images/menu-banner_r1_c1_s2.png',1); muda_banner('banner_atividades.JPG');" id="img_menu"><img name="menubanner_r1_c1" src="images/menu-banner_r1_c1.png" width="239" height="97" id="menubanner_r1_c1" alt="" /></a></td>
+   <td><a href="<?php echo domain; ?>/atividades-complementares" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('menubanner_r1_c1','','images/menu-banner_r1_c1_s2.png',1); muda_banner('banner_atividades.JPG');" id="img_menu"><img name="menubanner_r1_c1" src="images/menu-banner_r1_c1.png" width="239" height="97" id="menubanner_r1_c1" alt="" /></a></td>
    <td><img src="spacer.gif" width="1" height="95" alt="" /></td>
   </tr>
   <tr>

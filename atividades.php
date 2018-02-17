@@ -43,12 +43,14 @@ $totalRows_paginas = mysql_num_rows($paginas);
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- corrigir tamanho no celular -->
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>:: Colegio Memorial ::</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script>
-		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+		!window.jQuery && document.write('<script src="js/jquery-1.6.3.min.js"><\/script>');
 	</script>
 <script src="Scripts/script_menu.js"></script>
 </head>
@@ -56,11 +58,6 @@ $totalRows_paginas = mysql_num_rows($paginas);
 <?php
   mxi_includes_start("organisms/_topo.php");
   require(basename("organisms/_topo.php"));
-  mxi_includes_end();
-?>
-<?php
-  mxi_includes_start("organisms/_menu_horizontal_topo.php");
-  require(basename("organisms/_menu_horizontal_topo.php"));
   mxi_includes_end();
 ?>
 
@@ -74,7 +71,7 @@ $totalRows_paginas = mysql_num_rows($paginas);
     <div id="templatemo_main">
       <div class="col_w900  col_w900_last">
       </div>
-      <div class="col_w900" style="background-color:#FFF;">
+      <div class="conteudo col_w900" style="background-color:#FFF;">
             
        
       <div class="cleaner h30"> 

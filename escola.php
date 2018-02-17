@@ -57,11 +57,6 @@ $totalRows_paginas = mysql_num_rows($paginas);
   require(basename("organisms/_topo.php"));
   mxi_includes_end();
 ?>
-<?php
-  mxi_includes_start("organisms/_menu_horizontal_topo.php");
-  require(basename("organisms/_menu_horizontal_topo.php"));
-  mxi_includes_end();
-?>
 
 <div id="templatemo_wrapper">
 
@@ -73,7 +68,7 @@ $totalRows_paginas = mysql_num_rows($paginas);
     <div id="templatemo_main">
       <div class="col_w900  col_w900_last">
       </div>
-      <div class="col_w900" style="background-color:#FFF;">
+      <div class="conteudo col_w900" style="background-color:#FFF;">
             
        
       <div class="cleaner h30"> 

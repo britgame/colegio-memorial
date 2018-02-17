@@ -18,11 +18,6 @@ var presentationCycle = {
     //progressbar options
     barHeight: 14,
     barDisplacement: 20,
-    barImgLeft: "images/pc_item_left.gif",
-    barImgRight: "images/pc_item_right.gif",
-    barImgCenter: "images/pc_item_center.gif",
-    barImgBarEmpty: "images/pc_bar_empty.gif",
-    barImgBarFull: "images/pc_bar_full.gif",
     
     //variables this script need
     itemCount: 0,

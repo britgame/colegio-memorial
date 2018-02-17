@@ -49,11 +49,23 @@ $objDynamicThumb1->setResize(200, 180, true);
 $objDynamicThumb1->setWatermark(false);
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Untitled Document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- corrigir tamanho no celular -->
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <title>Untitled Document</title>
+
+    <!-- p/ o FontAwesome no IE -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+
     <link rel="stylesheet" type="text/css" href="../slide/css/presentationCycle.css" />
     <script type='text/javascript' src='../slide/js/jquery.cycle.all.min.js'></script>
     <script type='text/javascript' src='../slide/js/presentationCycle.js'></script>
@@ -74,7 +86,7 @@ setInterval(relogio, 1000);
 </head>
 
 <body>
-<table width="900" border="0" align="center" cellpadding="2" cellspacing="2">
+<table class="data_hora" width="900" border="0" align="center" cellpadding="2" cellspacing="2">
   <tr>
     <td height="20" align="right">
 
@@ -84,17 +96,17 @@ setInterval(relogio, 1000);
     </td>
   </tr>
 </table>
-<table width="900" height="190" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr style="background-image:url(images/topo.png); background-position:center; background-repeat:no-repeat">
-    <td valign="middle"><table width="880" height="150" border="0">
+<table border="0" align="center" cellpadding="0" cellspacing="0" class="geral_topo">
+  <tr style="background-image:url(images/topo.png); background-position:center; background-repeat: repeat-y;">
+    <td valign="middle"><table border="0" class="cabecario">
       <tr>
-        <td width="48%" align="left" valign="middle">
+        <td width="48%" align="left" valign="middle" class="slide_top">
       <div id="presentation_container" class="pc_container">
             <?php do { ?>
               <div class="pc_item">
                 <div class="desc">
                   </br>
-                  <h1><strong><?php echo $row_slide['i_titulo']; ?></strong></h1>
+                  <p><strong><?php echo $row_slide['i_titulo']; ?></strong></p>
                   &nbsp;
                   </div>
                 <a href="../espacos_ver.php?espid=<?php echo $row_slide['i_id']; ?>"><img src="<?php echo $objDynamicThumb1->Execute(); ?>" border="0" /></a></div>
@@ -104,12 +116,16 @@ setInterval(relogio, 1000);
             presentationCycle.init();
         </script>
         </td>
-        <td width="52%" align="right"><table width="350" border="0">
+        <td width="52%" align="right"><table border="0">
           <tr>
-            <td align="right"><img src="../images/topo_logo.png" width="334" height="134" /></td>
+            <td align="right" class="sumir_mobi">Rua Carlos Gomes, 240<br />
+              Ponte São Josão - Jundiaí/SP<br />
+              Fone: 11 4526.2322</td>
+            <td align="right"><img src="../images/logo_colegio_memorial_topo.png" width="134" height="134" alt="logo-colegio-memorial-topo" /></td>
           </tr>
-          <tr>
-            <td align="right"><a href="http://colegiomemorial.ultramax.com.br:8080/gestaoescolar/admin" target="_blank"><img src="../images/topo_bt_professores.png" width="128" height="24" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://colegiomemorial.ultramax.com.br:8080/gestaoescolar/aluno" target="_blank"><img src="../images/topo_bt_alunos.png" width="135" height="24" border="0" /></a></td>
+          <tr class="sumir_mobi">
+            <td align="right"><a href="http://colegiomemorial.ultramax.com.br:8080/gestaoescolar/admin" target="_blank"><img src="../images/topo_bt_professores.png" width="128" height="24" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td align="right"><a href="http://colegiomemorial.ultramax.com.br:8080/gestaoescolar/aluno" target="_blank"><img src="../images/topo_bt_alunos.png" width="135" height="24" border="0" /></a></td>
           </tr>
         </table></td>
       </tr>
@@ -118,6 +134,19 @@ setInterval(relogio, 1000);
       </td>
   </tr>
 </table>
+<div class="menu_horizontal">
+<?php
+  mxi_includes_start("_menu_horizontal_topo.php");
+  require(basename("_menu_horizontal_topo.php"));
+  mxi_includes_end();
+?>
+</div>
+
+<?php
+  mxi_includes_start("_menu_mobile.php");
+  require(basename("_menu_mobile.php"));
+  mxi_includes_end();
+?>
 
 </body>
 </html>

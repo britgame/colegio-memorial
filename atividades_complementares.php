@@ -45,22 +45,11 @@ $totalRows_paginas = mysql_num_rows($paginas);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>:: Colegio Memorial ::</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
+
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script>
 		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
 	</script>
-<script type="text/javascript" src="js/swfobject.js"></script>
-<!--<script type="text/javascript">
-	var flashvars = {};
-	flashvars.xml_file = "photo_list.xml";
-	var params = {};
-	params.wmode = "transparent";
-	var attributes = {};
-	attributes.id = "slider";
-	swfobject.embedSWF("flash_slider.swf", "flash_grid_slider", "440", "220", "9.0.0", false, flashvars, params, attributes);			
-</script>-->
-        
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/ddsmoothmenu.js">
@@ -91,11 +80,6 @@ ddsmoothmenu.init({
   require(basename("organisms/_topo.php"));
   mxi_includes_end();
 ?>
-<?php
-  mxi_includes_start("organisms/_menu_horizontal_topo.php");
-  require(basename("organisms/_menu_horizontal_topo.php"));
-  mxi_includes_end();
-?>
 
 <div id="templatemo_wrapper">
 
@@ -107,7 +91,7 @@ ddsmoothmenu.init({
     <div id="templatemo_main">
       <div class="col_w900  col_w900_last">
       </div>
-      <div class="col_w900" style="background-color:#FFF;">
+      <div class="conteudo col_w900" style="background-color:#FFF;">
             
        
       <div class="cleaner h30"> 
